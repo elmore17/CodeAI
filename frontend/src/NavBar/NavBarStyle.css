@@ -1,0 +1,50 @@
+.Logo{
+    height: 45px;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+}
+
+li{
+    padding: 10px 15px;
+    position: relative;
+    cursor: pointer;
+}
+
+.first{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.second{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 27px;
+}
+
+li button{
+    background-color: white;
+    border: none;
+    cursor: pointer;
+    height: 30px;
+}
+
+li img .false{
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+ul img {
+    margin-right: 10px;
+}
+
+ul span {
+    margin-right: 10px;
+}
